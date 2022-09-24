@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  .our-information {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+  
+  .our-information a {
+    margin: 30px;
+    padding: 20px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .contact-me {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+  }
+  .about-me {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h1 {
+    font-size: 96px;
+  }
+  h3 {
+    font-size: 24px;
+    color: black;
+    opacity: 0.7;
+  }
+  .back-homepage {
+    display: block;
+    text-align: center;
+    color: blue;
+  }
+  
+  h4 {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .contact-email {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .description {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 18px;
+  }
+  .description-title {
+    text-align: justify;
+    margin: 10px;
+  }
+  .yoga-app {
+    width: 160px;
+    margin: 25px 0;
+    padding: 20px 0px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+  }
+  .weather-app {
+    width: 190px;
+    margin: 25px 0;
+    padding: 20px 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+  }
+  .yogurt-app {
+    width: 170px;
+    margin: 25px 0;
+    padding: 20px 0px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+  }
+  .weather-app:hover {
+    color: blue;
+    transition: 2ms all ease-in-out;
+    cursor: pointer;
+  }
+  .yoga-app:hover {
+    color: blue;
+    transition: 2ms all ease-in-out;
+    cursor: pointer;
+  }
+  .yogurt-app:hover {
+    color: blue;
+    transition: 2ms all ease-in-out;
+    cursor: pointer;
+  }
+  img {
+    background-color: var(--secondary-color);
+  }
+  .about {
+    text-align: center;
+    font-size: 18px;
+    margin: 35px 15px;
+  }
+  .about-page {
+    margin-top: 45px;
+  }
